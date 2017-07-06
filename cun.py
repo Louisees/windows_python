@@ -11,3 +11,6 @@ clinet.connect((target_host,target_port))
 clinet.send("GET / HTTP/1.1\r\nHOST:127.0.0.1\r\n\r\n")
 #接受响应
 response = clinet.recv(4096)
+
+
+print  response

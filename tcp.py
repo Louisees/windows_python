@@ -20,7 +20,7 @@ def handle_client(client_socket):
 
     print "[*] Received:%s" % request
 
-    client_socket.send("ok!")
+    client_socket.send(" This proecss is runing ok ")
 
     client_socket.close()
 
