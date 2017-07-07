@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import socket
 import threading
+import socketserver
 
 # 监听的IP及端口
 bind_ip = "127.0.0.1"
-bind_port = 9999
+bind_port = 8888
 
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -33,3 +34,8 @@ while True:
     client_handler = threading.Thread(target=handle_client, args=(client,))
 
     client_handler.start()
+
+
+
+
+

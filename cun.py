@@ -2,7 +2,7 @@
 import socket
 # 目标地址IP/URL及端口
 target_host = "127.0.0.1"
-target_port = 9999
+target_port = 8888
 # 创建一个socket对象
 clinet = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 # 连接主机

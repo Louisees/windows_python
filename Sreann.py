@@ -35,3 +35,4 @@ screenshot.SaveBitmapFile(mem_dc, 'd:\\python\\screenshot.bmp')
 # 内存释放
 mem_dc.DeleteDC()
 win32gui.DeleteObject(screenshot.GetHandle())
+
