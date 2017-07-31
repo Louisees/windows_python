@@ -38,4 +38,8 @@ while True:
 
 
 
+#@classmethod    #类方式
+#@staticmethod   #@静态方法
+#@property  #属性
+
 

